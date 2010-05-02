@@ -1,0 +1,10 @@
+## unserializer.com
+
+A simple unserializing service for google app engine (gae). Right now PHP is supported through the Resin on Java JVM; I would like to add more languages and serialized types.
+
+# setup:
+* ./getresin.sh
+* ant clean
+* and runserver
+
+
