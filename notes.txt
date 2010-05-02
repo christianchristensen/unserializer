@@ -1,0 +1,7 @@
+ant -p
+
+ant clean
+ant runserver
+
+deploy:
+../../../appengine_java/appengine-java-sdk-1.2.5/bin/appcfg.sh update www
