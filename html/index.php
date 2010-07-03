@@ -8,6 +8,7 @@
   google.load("jquery", "1.4.2");
   // google.load("jqueryui", "1.7.2");
   </script>
+  <script type="text/javascript" src="/krumo/krumo.js"></script>
   <script type="text/javascript">
 
   $(document).ready(function(){
@@ -25,7 +26,7 @@
     
     $.ajax({
       type: "POST",
-      url: "unserialize.php",
+      url: "unserialize.php?js=TRUE",
       data: {'unserialize_input' : str},
       success: function(msg){
         $("#unserialize_result").ajaxComplete(function(event, request, settings){
