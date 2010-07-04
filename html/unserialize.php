@@ -5,6 +5,7 @@
         <head>
           <title>theunserializer</title>
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <link type="text/css" rel="stylesheet" href="/krumo/skins/default/skin.css"> 
           <script type="text/javascript" src="/krumo/krumo.js"></script>
         </head>
         <body>';
